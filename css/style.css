@@ -10,6 +10,14 @@ body{
   margin: 0;
   font-family: "Rubik","Arial", sans-serif;
 }
+*:focus{
+  outline: 2px dotted #7296EC;
+  outline-offset: 4px;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
 /* BUTTON */
 .login-link {
   display: inline-block;
@@ -87,6 +95,17 @@ body{
 
 .currency-value {
   color:#555;
+}
+/* GLOBAL SEARCH FORM */
+.global-search-form{
+  margin-right: 25px;
+}
+.global-search-input{
+  font-size: 14px;
+  line-height: normal;
+  border: 0;
+  border-radius: 60px;
+  padding: 15px 192px 13px 41px;
 }
 
 .language {
