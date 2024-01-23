@@ -14,6 +14,7 @@ body{
   outline: 2px dotted #7296EC;
   outline-offset: 4px;
 }
+
 img{
   max-width: 100%;
   height: auto;
@@ -177,3 +178,91 @@ img{
 .site-header-banner{
   display: flex;
 }
+
+/* MAIN PART */
+
+.main-content{
+  flex-grow: 1;
+  padding-top: 50px;
+}
+
+
+.news-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+}
+
+.news-grid-item {
+  width: 393px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.article-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #F6F6F6;
+  border-radius: 15px;
+  padding: 20px 17px 15px;
+}
+
+.article-card-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 0 ;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+
+}
+
+.article-card-link {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+.article-card-link:hover{
+  color: #7296EC;
+}
+.article-card-link:active{
+  opacity: 0.6;
+}
+
+.article-card-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+
+.article-card-img {
+  display: block;
+  width: 360px;
+  height: 165px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: auto;
+  margin-bottom: 15px;
+}
+
+.article-card-footer {
+  display: flex;
+  align-items: center;
+}
+
+.article-card-footer-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.article-card-source-time {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  color: #5E5F61;
+}
+
+.article-card-source {}
