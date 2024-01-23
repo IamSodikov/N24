@@ -24,6 +24,7 @@ img{
   display: inline-block;
   padding: 13px 20px;
   border-radius: 10px;
+  border: 0;
   line-height: normal;
   font-weight: 500;
   font-size: 16px;
@@ -35,11 +36,16 @@ img{
   background-color: #7296EC;
   color: #FFFFFF;
 }
-.login-text:hover{
+.login-link:hover{
   opacity: 0.8;
 }
-.login-text:active{
+.login-link:active{
   opacity: 0.6;
+}
+
+.button-orange{
+  background-color: #F78B3B;
+  color: #fff;
 }
 
 /* CONTAINER */
@@ -265,4 +271,23 @@ img{
   color: #5E5F61;
 }
 
-.article-card-source {}
+/* .article-card-source {} */
+
+/* NOTIFICATION */
+
+.notification-cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 70px 25px 25px;
+  margin: 60px 75px;
+  border-radius: 10px;
+  background-color: #ffd7ba;
+}
+
+.notification-cta-text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #000;
+}
