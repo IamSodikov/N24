@@ -492,9 +492,9 @@ img{
   display: flex;
 }
 
-.sidebar-img{
+.sidebar-news-card-img{
   width: 393px;
-  height: 3px;
+  height: 553px;
   object-fit: cover;
   border-radius: 15px;
 }
