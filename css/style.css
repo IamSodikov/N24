@@ -1,7 +1,20 @@
 /* GLOBAL */
-*{
-  box-sizing:border-box
+:root{
+  --accent-color: #7296EC;
 }
+
+html {
+  box-sizing:border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
 body{
   display: flex;
   flex-direction: column;
@@ -11,7 +24,7 @@ body{
   font-family: "Rubik","Arial", sans-serif;
 }
 *:focus{
-  outline: 2px dotted #7296EC;
+  outline: 2px dotted var(--accent-color);
   outline-offset: 4px;
 }
 
@@ -33,7 +46,7 @@ img{
 }
 
 .login-text {
-  background-color: #7296EC;
+  background-color: var(--accent-color);
   color: #FFFFFF;
 }
 .login-link:hover{
@@ -185,7 +198,7 @@ img{
   text-decoration: none;
 }
 .site-header-nav-link:hover{
-  color: #7296EC;
+  color: var(--accent-color);
 }
 .site-header-nav-link:active{
   opacity: 0.6;
@@ -240,7 +253,7 @@ img{
   text-decoration: none;
 }
 .article-card-link:hover{
-  color: #7296EC;
+  color: var(--accent-color);
 }
 .article-card-link:active{
   opacity: 0.6;
@@ -361,7 +374,7 @@ img{
 
 }
 .article-card-horizontal-content-title-link:hover{
-  color: #7296EC;
+  color: var(--accent-color);
 }
 .article-card-horizontal-content-title-link:active{
   opacity: 0.6;
@@ -453,7 +466,7 @@ img{
 }
 
 .sidebar-news-card-list-heading-link:hover{
-  color: #7296EC;
+  color: var(--accent-color);
 }
 .sidebar-news-card-list-heading-link:active{
   opacity: 0.6;
